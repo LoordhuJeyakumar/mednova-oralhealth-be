@@ -1,4 +1,7 @@
 # MedNova OralHealth API
+![GitHub package.json version](https://img.shields.io/github/package-json/v/LoordhuJeyakumar/mednova-oralhealth-be)
+![GitHub License](https://img.shields.io/github/license/LoordhuJeyakumar/mednova-oralhealth-be)
+![GitHub last commit](https://img.shields.io/github/last-commit/LoordhuJeyakumar/mednova-oralhealth-be)
 
 ## Table of Contents
 
