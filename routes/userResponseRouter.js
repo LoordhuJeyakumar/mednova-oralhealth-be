@@ -19,4 +19,10 @@ userResponseRouter.get(
   userResponseController.getResponseForQuestion
 );
 
+userResponseRouter.get(
+  "/stats",
+  authMiddleware,
+  userResponseController.getUserStats
+);
+
 module.exports = userResponseRouter;
