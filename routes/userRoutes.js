@@ -12,10 +12,10 @@ userRouter.post("/login", userController.login);
 userRouter.get("/profile",authMiddleware, userController.getUser);
 
 //Route for updating user profile
-userRouter.put("/update", userController.updateUser);
+userRouter.put("/update", authMiddleware, userController.updateUser);
 
 //Route for deleting user profile
-userRouter.delete("/delete", userController.deleteUser);
+userRouter.delete("/delete", authMiddleware, userController.deleteUser);
 
 //Route for verifying user token
 userRouter.get(
